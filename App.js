@@ -57,12 +57,12 @@ const App = () => {
           }
         />
       ) : (
-        <View style={{ justifyContent: 'center', alignItems: 'center', flex: 1 }}>
-          {/* <Text style={{ fontSize: 18, textAlign: 'center', color: 'black', fontWeight: '600', marginBottom: 20 }}>
-            {data}
-          </Text> */}
-          <TouchableOpacity onPress={handleScanButtonPress} style={{ backgroundColor: 'black', padding: 15, borderRadius: 40 }}>
-            <Text style={{ fontSize: 15, fontWeight: '700', color: 'white' }}>QR Code Scanner</Text>
+        <View style={{ justifyContent: 'center', flex: 1 }}>
+          <Text style={{ fontSize: 30, textAlign: 'center', color: 'black', fontWeight: '600', marginBottom: 20 }}>
+            Dharmik patel
+          </Text>
+          <TouchableOpacity onPress={handleScanButtonPress} style={{ backgroundColor: 'black', padding: 15, borderRadius: 40,marginHorizontal:90 }}>
+            <Text style={{ fontSize: 15, fontWeight: '700', color: 'white',textAlign:'center' }}>QR Code Scanner</Text>
           </TouchableOpacity>
         </View>
       )}
